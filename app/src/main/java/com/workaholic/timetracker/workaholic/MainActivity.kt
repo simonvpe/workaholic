@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     private var mSignInClient: GoogleSignInClient? = null
     private var mFirebaseAuth: FirebaseAuth? = null
 
-    private var RC_SIGN_IN: Int = 1;
+    private var RC_SIGN_IN: Int = 1
 
     data class Salad (
         val name: String = "",
@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun signIn() {
-        startActivityForResult(mSignInClient?.getSignInIntent(), RC_SIGN_IN)
+        startActivityForResult(mSignInClient?.signInIntent, RC_SIGN_IN)
     }
 
     private fun signOut() {
@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
                     if (task.isSuccessful) {
                         // Sign in success, update UI with the signed-in user's information
                         Log.d("account", "signInWithCredential:success")
-                        val user = mFirebaseAuth?.getCurrentUser()
+                        val user = mFirebaseAuth?.currentUser
                         updateUi(user)
                     } else {
                         // If sign in fails, display a message to the user.
