@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "434179351887",
+    "firebase_url": "https://workaholic-ea633.firebaseio.com",
+    "project_id": "workaholic-ea633",
+    "storage_bucket": "workaholic-ea633.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434179351887:android:7abd235ba7919a4e",
+        "android_client_info": {
+          "package_name": "com.workaholic.timetracker.workaholic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434179351887-emtsuo2tkmi3gs6ul2vsrh5iitrf7q8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workaholic.timetracker.workaholic",
+            "certificate_hash": "ed557be31e5852bffb241b5a88ce12f4208cb6f5"
+          }
+        },
+        {
+          "client_id": "434179351887-lokvefrq054ajhgmtivgr0bboavo90lf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk1cmJ5PI65sYDXWs6PlHv66WrqkgM7NQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434179351887-lokvefrq054ajhgmtivgr0bboavo90lf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
